@@ -1,4 +1,4 @@
-#MASM program for 16-bit multiplication(using immediate addressing mode)
+"MASM program for 16-bit multiplication(using immediate addressing mode)"
 
 ASSUME CS:CODE
 
