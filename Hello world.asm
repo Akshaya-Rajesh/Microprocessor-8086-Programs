@@ -1,4 +1,4 @@
-#MASM Program to print Hello World !
+"MASM Program to print Hello World"
 
 ASSUME CS:CODE, DS:DATA
 
