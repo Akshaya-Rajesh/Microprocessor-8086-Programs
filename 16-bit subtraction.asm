@@ -1,4 +1,4 @@
-#MASM program for 16-bit subtraction
+"MASM program for 16-bit subtraction"
 
 ASSUME CS:CODE, DS:DATA
 
