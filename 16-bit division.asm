@@ -1,3 +1,5 @@
+"MASM program for 16-bit division"
+
 ASSUME CS:CODE
 
 CODE SEGMENT
