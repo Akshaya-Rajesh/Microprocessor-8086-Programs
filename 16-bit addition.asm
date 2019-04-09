@@ -1,4 +1,4 @@
-#MASM program for 16 bit addition
+"MASM program for 16 bit addition"
 
 ASSUME CS:CODE,dS:DATA
 
