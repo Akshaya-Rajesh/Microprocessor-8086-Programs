@@ -1,4 +1,4 @@
-# MASM program to reverse an 8-bit number
+"MASM program to reverse an 8-bit number"
 
 ASSUME CD:CODE
 
