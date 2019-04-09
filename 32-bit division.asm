@@ -1,4 +1,4 @@
-#MASM program for 32-bit division
+"MASM program for 32-bit division"
 
 ASSUME CS:CODE,DS:DATA
 
