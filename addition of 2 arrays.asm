@@ -1,0 +1,37 @@
+"MASM program to add two arrays and store the sum in another array"
+
+ASSUME CS:CODE, DS:DATA
+
+DATA SEGMENT
+  A DB 01H,02H,03H,04H
+  B DB 01H,02H,03H,04H
+  C DB 5 DUP(0)
+DATA ENDS
+
+CODE SEGMENT
+START:
+  MOV AX,DATA
+  MOV DS,AX
+  
+  LEA SI,A
+  LEA DI,B
+  MOV BX,C
+  MOV AH,00H
+  MOV CX,04H
+  
+REPEAT:
+  MOV AL,[SI]
+  ADD AL,[DI]
+  MOV [BX],AL
+  INC SI
+  INC DI
+  INC BX
+  DEC CX
+  JNZ REPEAT
+
+STOP:
+  MOV AH,4CH
+  INT 21H
+
+CODE ENDS
+END START
